@@ -1,0 +1,403 @@
+img {
+    border: 0;
+}
+
+img.responsive-img, video.responsive-video {
+    max-width: 100%;
+    height: auto;
+}
+
+hr {
+    box-sizing: content-box;
+    height: 8px;
+    margin-bottom: 10px;
+    border: 0;
+}
+
+.line-light-blue {
+    background-color: #03a9f4;
+}
+
+. .placeholder {
+    min-height: 56px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    line-height: 1.1;
+    line-height: 110%;
+    color: #424242;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    font-weight: inherit;
+}
+
+h1 {
+    display: block;
+    font-size: 3.56rem;
+    margin: 1.78rem 0 1.424rem 0;
+    clear: both;
+    color: white;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.92rem;
+    margin: 1.46rem 0 1.168rem 0;
+}
+
+h3 {
+    font-size: 2.28rem;
+    margin: 1.14rem 0 0.912rem 0;
+}
+
+h4 {
+    font-size: 1.64rem;
+    margin: 0.82rem 0 0.656rem 0;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+h5 {
+    font-size: 1rem;
+    margin: 0.5rem 0 0.4rem 0;
+}
+
+h6 {
+    font-size: 1rem;
+    margin: 0.5rem 0 0.4rem 0;
+}
+
+p{
+  font-family: 'Roboto', "Ubuntu", sans-serif;
+  color: #5c5c5c;
+}
+
+article{
+  padding: 30px 0px;
+}
+
+::selection {
+  color: white;
+  background: #ee6e73;
+}
+::-moz-selection {
+  color: white;
+  background: #ee6e73;
+}
+/*========================Colors Texures=================================*/
+
+.texture-2 {
+    background-image: url('../images/textures/gplaypattern.png');
+}
+
+.texture-1 {
+    background-image: url('../images/textures/struckaxiom.png');
+}
+
+.white {
+    background-color: white;
+}
+
+.yellow {
+    background-color: #ffeb3b;
+}
+.yellow-border {
+    border-color: #ffeb3b;
+}
+.yellow-text{
+    color: #ffeb3b;
+}
+
+.amber {
+    background-color: #ffc107;
+}
+.amber-border {
+    border-color: #ffc107;
+}
+.amber-text{
+    color: #ffc107;
+}
+
+.froly {
+    background-color: #ee6e73;
+}
+.froly-border {
+    border-color: #ee6e73;
+}
+.froly-text{
+    color: #ee6e73;
+}
+
+.green {
+    background-color: #4caf50;
+}
+.green-border {
+    border-color: #4caf50;
+}
+.green-text{
+    color: #4caf50;
+}
+
+.orange {
+    background-color: #ff9800;
+}
+
+.grey {
+    background-color: #f4f4f4;
+}
+
+.grey-dark-2 {
+    background-color: #616161;
+}
+
+.cyan {
+    background-color: #5cd1df;
+}
+.cyan-border {
+    border-color: #5cd1df;
+}
+.cyan-text{
+    color: #5cd1df;
+}
+
+/*========================Parallax=================================*/
+
+.parallax-container {
+    position: relative;
+    overflow: hidden;
+    height: 600px;
+    width: 100%;
+}
+
+img.parallax {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0px;
+    width: 100%;
+}
+
+.parallax-text-bottom {
+    position: absolute;
+    color: white;
+    bottom: 10%;
+    text-align: center;
+    width: 100%;
+}
+.parallax-text-bottom p {
+    color: #eeeeee;
+}
+.line-30 {
+  width: 100%;
+  max-width: 70px;
+  margin: 10px auto 20px;
+}
+.line-70 {
+  width: 100%;
+  max-width: 70px;
+  margin: 10px auto 20px;
+}
+
+.line-300 {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px auto 20px;
+}
+
+hr.thick {
+    background-color: white;
+    height: 1px;
+}
+
+
+/*========================Social Links=================================*/
+
+a.social_link {
+    clear: both;
+    color: #8a909b;
+    text-decoration: none;
+    white-space: nowrap;
+    display: inline-block;
+    width: 96%;
+    margin: 5px 2% 0px 2%;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-bottom: 1px solid #8a909b;
+}
+
+a.social_link:hover {
+    color: white;
+    border-color: transparent;
+}
+
+@media only screen and (min-width: 601px) {
+    a.social_link {
+        width: 90%;
+        margin: 5px 5% 0px 5%;
+    }
+}
+
+.icon {
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: 7px 5px;
+    vertical-align: middle;
+    height: 24px;
+    width: 24px;
+    padding: 7px;
+    margin-right: 5px;
+    opacity: 0.3;
+}
+
+a.social_link:hover .icon {
+    opacity: 1;
+}
+
+a.gmail:hover {
+    background-color: #d14836;
+}
+
+a.gmail {
+    /*background-color: #c63828;*/
+}
+
+a.facebook {
+    /*background-color: #2d4373;*/
+}
+
+a.facebook:hover {
+    background-color: #3b5998;
+}
+
+a.vk:hover {
+    background-color: #648fc9;
+}
+
+a.vk {
+    /*background-color: #507299;*/
+}
+
+a.outlook:hover {
+    background-color: #ade83d;
+}
+
+a.outlook {
+    /*background-color: #82ba00;*/
+}
+
+.linkedin:hover {
+    background-color: #1C94C6;
+}
+
+a.linkedin {
+    /*background-color: #008cc9;*/
+}
+
+.facebook_icon {
+    background-color: #2d4373;
+    background-image: url('../images/textures/facebook.png');
+}
+
+.facebook_icon:hover {
+    background-color: #3b5998;
+    background-image: url('../images/textures/facebook.png');
+}
+
+.gmail_icon {
+    background-color: #c63828;
+    background-image: url('../images/textures/gmail.png');
+}
+
+.vk_icon {
+    background-color: #507299;
+    background-image: url('../images/textures/vk.png');
+}
+
+.outlook_icon {
+    background-color: #82ba00;
+    background-image: url('../images/textures/windows.png');
+}
+
+.linkedin_icon {
+    background-color: #008cc9;
+    background-image: url('../images/textures/linkedin.png');
+}
+
+
+/*========================FOOTER=================================*/
+
+.footer {
+    margin-top: 40px;
+    background-color: #2a2b2d;
+    color: white;
+    font-weight: bold;
+}
+
+.footer .col {
+    margin-top: 5px;
+}
+
+.TODO {
+    border: solid 2px red;
+    !Important;
+    background-color: red !Important;
+    color: black !Important;
+    opacity: 0.5;
+    box-sizing: border-box; !mportant;
+
+}
+
+.image-round {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 50%;
+}
+
+img.avatar {
+    margin: 5px 5% 5px 5%;
+    max-width: 90%;
+}
+
+.col .portfolio-block {
+  margin-top: 1.5rem;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    box-shadow: 0 5px 8px 0 rgba(160, 166, 168, 0.35);
+}
+
+.portfolio-block-text {
+    height: 25%;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    padding: 5px;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    border-top-style: solid;
+    border-top-width: 5px;
+    box-sizing: border-box; !mportant;
+    box-shadow: 0px -15px 30px 0px rgba(160, 166, 168, 0.2);
+}
+.portfolio-block-text p{
+  margin-top: 5px;
+}
+
+
+.white-gradient{
+  width: 100%;
+  height: 30px;
+  position: absolute;
+  bottom: 0;
+  left:0;
+  background: -moz-linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+  background: -o-linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+  background: -ms-linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+}
